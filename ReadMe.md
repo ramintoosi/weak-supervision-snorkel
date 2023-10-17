@@ -1,6 +1,6 @@
 # Weak Supervision with Snorkel: Image Classification Example
 
-[See my blog post for full description](https://ramintoosi.ir/posts/2023/08/blog-post-1/).
+**[See my blog post for full description.](https://ramintoosi.ir/posts/2023/08/blog-post-1/)**
 
 ## Summary
 
@@ -14,6 +14,11 @@ In this tutorial, tailored for machine learning engineers and enthusiasts alike,
 
 Run the code in the following steps
 
+- Install requirements.
+```commandline
+pip install -r requirements.txt
+```
+**Note:** If you want to use cuda, install torch separately (for example ```pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118```)
 - Download necessary files.
 ```commandline
 sh oiv7_files_download.sh
