@@ -116,6 +116,7 @@ def train(
 
             # deep copy the model
             if phase == 'val' and epoch_loss < best_loss:
+                best_loss = epoch_loss
                 best_acc = epoch_acc
                 best_model_wts = copy.deepcopy(model.state_dict())
                 torch.save({
